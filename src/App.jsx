@@ -6,7 +6,7 @@ function App() {
 
 
   const getImage = async()=>{
-    const res=await fetch ("https://api.unsplash.com/search/photos?page=1&query=random&client_id=_eWhaCOKAKz2BSKjRj7o5yt7mRDbTm12zy6G5z3biBk")
+    const res=await fetch ("https://api.unsplash.com/search/photos?page=1&query=random&client_id=YY4q57s3846oDtv_PfZOaTH7ypUuzm5dqCHdFr1aAkw")
     const data=await res.json()
     setImage(data.results)
   }
